@@ -62,7 +62,7 @@ val sharedSettings = Seq(
     "org.scalatest" %% "scalatest" % "3.0.0" % "test",
     // See http://www.scala-sbt.org/0.13/docs/Testing.html#JUnit
     "com.novocode" % "junit-interface" % "0.11" % "test",
-    "org.mockito" % "mockito-all" % "1.9.5" % "test"
+    "org.mockito" % "mockito-core" % "2.13.0" % "test"
   ),
 
   ScoverageKeys.coverageHighlighting := true,
